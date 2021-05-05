@@ -1,0 +1,28 @@
+
+nav{
+    background: rgb(43, 43, 43);
+    margin: 0;
+    padding: 10px 0px;
+}
+.pagination>li>a {
+    background-color: inherit;
+    color: #fff;
+    border-color: #5a5a5a;
+}
+
+.page-item.active .page-link {
+    color: #0e5f0b;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination>.active>a {
+    color: #0e5f0b !important;
+    background-color: #0e5f0b!Important;
+    /* border: solid 1px #5A4181 !Important; */
+}
+
+.pagination>.active>a:hover {
+    background-color: inherit !Important;
+    border: solid 1px #0e5f0b;
+}

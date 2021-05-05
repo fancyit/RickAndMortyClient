@@ -1,0 +1,34 @@
+.nav {
+    padding: 10px 5px;
+}
+
+a {
+    color: black !important;
+    font-weight: 600;
+    font-size: 1.3rem !important;
+}
+
+li a:hover {
+    color: rgb(245, 90, 0)!important;
+}
+
+.nav-item:last-child {
+    padding: 0px 15px;
+    border: 2px solid rgb(245, 90, 0) !important;
+    border-radius: 15px!important;
+}
+.nav-item:last-child:hover {
+    background-color: rgb(245, 90, 0);
+    color: #fff !important;
+}
+.nav-item:last-child a:hover {    
+    color: #fff !important;
+}
+
+.active {
+    color: rgb(245, 90, 0) !important;
+}
+svg:hover {
+    fill: rgb(245, 90, 0)!important;
+}
+

@@ -1,0 +1,32 @@
+<div *ngIf="character && episode">
+  <div class="card-container">
+    <div class="img-wrapper">
+      <img [src]="character.image" alt="">
+    </div>
+    <div class="content-wrapper">
+      <div class="section">
+        <a href="">
+          <h2>{{character.name}}</h2>
+        </a>
+        <span class="status">
+          <span [ngClass]="character.status === 'unknown' ? 'unknown' 
+                         : character.status === 'Dead' ? 'dead' : 'alive'" class="status-icon">
+          </span>
+          {{character.status}} - {{character.species}}
+        </span>
+      </div>
+      <div class="section">
+        <span class="text-gray">Last known location:</span>
+        <a href="">
+          {{character.location.name}}
+        </a>
+      </div>
+      <div class="section">
+        <span class="text-gray">First seen in:</span>
+        <a href="">
+          {{episode.name}}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+<div class="container" *ngIf="pagedCharactersList"> 
+  <div *ngFor="let character of pagedCharactersList.results">
+    <app-card [character]="character"></app-card>    
+  </div>    
+</div>
+<app-pager></app-pager>
+

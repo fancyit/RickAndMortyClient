@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero-wrapper {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(50vh - 60px);
+  text-align: center;
+  position: relative;
+}
+.hero-title {
+  margin: 0px;
+  color: rgb(32, 35, 41);
+  border: none;
+  font-weight: 900;
+  z-index: 1;
+  font-size: 5.625rem;
+}
+.hero-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.hero-image svg {
+  width: 100%;
+  height: 100%;
+  fill: rgb(245, 245, 245);
+}
